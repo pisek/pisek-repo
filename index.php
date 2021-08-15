@@ -1,17 +1,13 @@
+
 <html>
 <body>
 <pre>
-<?php
-	$files = scandir('.');
-	for ($i = 0; $i < count($files); $i++) {
-		if ($files[$i] != '.' && $files[$i] != '..' && $files[$i] != 'index.php') {
-			if (is_dir($files[$i])) {
-				$files[$i] = $files[$i].'/';
-			}
-			echo "<a href=\"".$files[$i]."\">".$files[$i]."</a>\n";
-		}
-	}
-?>
+<a href="elementum/">elementum/</a>
+<a href="kodi-versions/">kodi-versions/</a>
+<a href="repository.Absolut.Kodi-1.0.5.zip">repository.Absolut.Kodi-1.0.5.zip</a>
+<a href="repository.kodibae-5.0.0.zip">repository.kodibae-5.0.0.zip</a>
+<a href="repository.venom-1.19.zip">repository.venom-1.19.zip</a>
+<a href="repository.xbmchub-4.0.0.zip">repository.xbmchub-4.0.0.zip</a>
 </pre>
 </body>
 </html>
